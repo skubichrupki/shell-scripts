@@ -10,9 +10,9 @@
 # ${#array[@]} - # gives the number of elements in array
 # [@] means “all elements of the array.”
 
-HOME_DIR="/Users/skubi"
-DOWNLOADS_DIR="/Users/skubi/Downloads/"
-TRACKS_DIR="/Users/skubi/Downloads/tracks/"
+HOME_DIR="$HOME"
+DOWNLOADS_DIR="$HOME/Downloads/"
+TRACKS_DIR="$HOME/Downloads/tracks/"
 
 mkdir -p "$HOME_DIR/Downloads/tracks"
 
